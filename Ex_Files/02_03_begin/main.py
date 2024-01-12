@@ -1,12 +1,16 @@
+#Beatles members in an array
 NAMES = ["John", "Paul", "George", "Ringo"]
 AGES = [20, 21, 22, 23]
 
+#indexing items in array
 JOHN = NAMES[0]
 PAUL = NAMES[1]
 
+#slicing items in array
 JOHN_PAUL = NAMES[:2]
 GEORGE_RINGO = NAMES[2:]
 REVERSE = NAMES[::-1]
+#REVERSE = NAMES[start::stop::-1]
 EVERY_OTHER = NAMES[::2]
 
 print(sum(AGES))
